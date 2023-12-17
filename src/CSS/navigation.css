@@ -1,0 +1,48 @@
+.navigation ul {
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    padding: 0; /* Padding sıfırlanarak düzgün bir hizalama sağlandı */
+  }
+  
+  .navigation ul a {
+    text-decoration: none;
+    padding: 10px;
+    color: inherit; /* Link renklerini korumak için eklendi */
+  }
+  
+  .navigation ul a li {
+    color: #61dafb;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .navigation ul a li:hover {
+    color: whitesmoke;
+  }
+  
+  .navigation ul .nav-active {
+    position: relative;
+  }
+  
+  .navigation ul .nav-active::after {
+    content: "";
+    height: 4px;
+    width: 0;
+    background: #61dafb;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: anim 0.6s ease forwards;
+  }
+  
+  @keyframes anim {
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Webkit için özel animasyon tanımını kaldırdım, çünkü modern tarayıcılar artık genel @keyframes tanımını destekliyor */
+  
