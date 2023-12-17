@@ -1,63 +1,70 @@
-```markdown
-#Dünya Bayrak Ansiklopedisi
+# Getting Started with Create React App
 
-Dünya Bayrak Ansiklopedisi, dünya üzerindeki tüm ülkelerin bayraklarını, başkentlerini ve temel bilgilerini gösteren interaktif bir web uygulamasıdır. Bu proje, React.js kullanılarak geliştirilmiştir ve modern web teknolojilerini kullanarak kullanıcı dostu bir deneyim sunar.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Özellikler
+## Available Scripts
 
-- Ülkelerin bayraklarını ve temel bilgilerini gösterme.
-- Farklı kıtalara göre filtreleme özelliği.
-- Responsive tasarım: Mobil ve masaüstü cihazlarda sorunsuz kullanım.
+In the project directory, you can run:
 
-##Başlarken
+### `npm start`
 
-Bu bölümde, projeyi yerel makinenizde nasıl çalıştıracağınız anlatılmaktadır.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-###Önkoşullar
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Projeyi çalıştırmadan önce aşağıdaki araçların sisteminizde kurulu olduğundan emin olun:
+### `npm test`
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/) (Node.js ile birlikte geliyor)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-###Kurulum
+### `npm run build`
 
-1. Projeyi klonlayın:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-   ```bash
-   git clone https://github.com/kullaniciAdiniz/dunya-bayrak-ansiklopedisi.git
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-2. Bağımlılıkları yükleyin:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   ```bash
-   cd dunya-bayrak-ansiklopedisi
-   npm install
-   ```
+### `npm run eject`
 
-3. Uygulamayı yerel olarak çalıştırın:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   ```bash
-   npm start
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-   Tarayıcınızda `http://localhost:3000` adresine giderek uygulamayı görüntüleyebilirsiniz.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-##Kullanılan Teknolojiler
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- [React.js](https://reactjs.org/) - Kullanıcı arayüzü kütüphanesi
-- [Bootstrap](https://getbootstrap.com/) - Front-end çerçevesi
+## Learn More
 
-##Yazar
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Adil Alperen Çiftçi - [adilalperenciftci](https://github.com/adilalperenciftci)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-##Lisans
+### Code Splitting
 
-Bu proje MIT Lisansı ile lisanslanmıştır - lisans için [LICENSE.md](LICENSE.md) dosyasına bakın.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-##Teşekkürler
+### Analyzing the Bundle Size
 
-- Projede kullanılan ikonlar, resimler vb. için teşekkürler.
-- İlham alınan kaynaklar, rehberler, vb.
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
